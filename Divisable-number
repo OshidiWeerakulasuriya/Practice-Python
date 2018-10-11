@@ -1,0 +1,7 @@
+n = int(input("Enter a number to divide: "))
+listR = list(range(1,num+1))
+divList = []
+for num in listR:
+  if n % num == 0:
+    divList.append(num)
+print(divList)
